@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    background-color:rgb(136, 192, 218);
+    color: red;
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    border-radius:20px;
+    text-align:center;
+}
+.sg{
+    
+    border-radius: 20px;
+}
+.op{
+    background-color: red;
+
+}
+h5{
+    color: black;
+    
+}

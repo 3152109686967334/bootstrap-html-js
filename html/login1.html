@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="http://192.168.1.61:4000/student/create" enctype="application/x-www-form-urlencoded" method="post"></form>
+    <table>
+        <tr>
+            <td><label for="sender_name">Sender Name</label></td>
+            <td></td>
+            <td><input type="text" name="sender_name" value="sender_name"></td>
+        </tr>
+        <tr>
+            <td><label for="passport"><h5>passport</h5></label></td>
+            <td></td>
+            <td><input type="file" name="passport" value="passport"></td>
+        </tr>
+        <tr>
+            <td><label for="student_name"><h5>Student Name</h5></label></td>
+            <td></td>
+            <td><input type="text" name="student_name" ></td>
+        </tr>
+        <tr>
+            <td><label for="father_name"><h5>Father Name</h5></label></td>
+            <td></td>
+            <td><input type="text" name="father_name" ></td>
+        </tr>
+        <tr>
+            <td><label for="date_of_birth"><h5>date_of_birth</h5></label></td>
+            <td></td>
+            <td><input type="date" id="date"></td>
+        </tr>
+        <tr>
+            <td><label for="age"><h5>age</h5></label></td>
+            <td></td>
+            <td><input type="number" name="age" value="number"></td>
+        </tr>
+        <tr>
+            <td><label for="gender"><h5>gender</h5></label></td>
+            <td></td>
+            <td><input type="radio" name="gender" value="male">
+            <label for="male"><h5>Male</h5></label>
+            
+            <input type="radio" name="gender" value="female">
+            <label for="female"><h5>female</h5></label></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label for="class"><h5>class</h5></label></td>
+            <td></td>
+            <td><select name="education" id="edu">
+                <option value="KG">KG</option>
+                <option value="Grade-1">Grade-1</option>
+                <option value="Grade-2">Grade-2</option>
+                <option value="Grade-3">Grade-3</option>
+              </select></td>
+            
+        </tr>
+        <tr>
+            <td><label for="roll_no"><h5>roll no</h5></label></td>
+            <td></td>
+            <td><input list="rollno" name="roll_no">
+                <datalist id="rollno">
+                    <option value="Roll-1">
+                    <option value="Roll-2">
+                    <option value="Roll-3">
+                    <option value="Roll-4">
+                    <option value="Roll-5">
+                </datalist></td>
+        </tr>
+        <tr>
+            <td><label for="received_date"><h5>received_Date</h5></label></td>
+            <td></td>
+            <td><input type="datetime-local" name="received_date" value="datetime-local"></td>
+        </tr>
+        <tr>
+            <td><label for="ph_no"><h5>Phone No</h5></label></td>
+            <td></td>
+            <td><input type="number" name="tel" value="ph_no"></td>
+        </tr>
+        <tr>
+            <td><label for="address"><h5>Address</h5></label></td>
+            <td></td>
+            <td><textarea id="Address" name="address" rows="4" cols="50"></textarea></td>
+        </tr>
+            <tr><td><input type="submit" value="send"></td></tr>
+        
+
+    </table>
+</body>
+</html>

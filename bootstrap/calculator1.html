@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title>KTA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="cal.css">
+
+</head>
+<body>
+<div class= "container mt-5">
+    <form name = "calculator">
+        <h5 align="left">KTA</h5>
+        <div class="col-md-12"></div>
+        
+            <input id = "calc" type ="text" name = "answer" id="answer" placeholder="Enter number"> <br> <br>
+            <input type = "button" class="btn btn-primary sg" value = "C" onclick = "calculator.answer.value = ' ' " id= "clear" >
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "1" onclick = "calculator.answer.value += '1' ">
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "2" onclick = "calculator.answer.value += '2' ">
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "3" onclick = "calculator.answer.value += '3' ">
+            <input type = "button" class="btn btn-secondary ml-3 sg op" value = "+" onclick = "calculator.answer.value += '+' ">
+            <br> <br>
+  
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "4" onclick = "calculator.answer.value += '4' ">
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "5" onclick = "calculator.answer.value += '5' ">
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "6" onclick = "calculator.answer.value += '6' ">
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "7" onclick = "calculator.answer.value += '7' ">
+            <input type = "button" class="btn btn-primary ml-3 sg op" value = "%" onclick = "calculator.answer.value += '%' ">
+            <br> <br>
+  
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "7" onclick = "calculator.answer.value += '7' ">
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "8" onclick = "calculator.answer.value += '8' ">
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "9" onclick = "calculator.answer.value += '9' ">
+            <input type = "button" class="btn btn-primary ml-3 sg op" value = "*" onclick = "calculator.answer.value += '*' ">
+            <input type = "button" class="btn btn-primary ml-3 sg op" value = "-" onclick = "calculator.answer.value += '-' ">
+            <br> <br>
+  
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "0" onclick = "calculator.answer.value += '0' ">
+            <input type = "button" class="btn btn-secondary ml-3 sg" value = "00" onclick = "calculator.answer.value += '00' ">
+            <input type = "button" class="btn btn-primary ml-3 sg op" value = "." onclick = "calculator.answer.value += '.' ">
+            <input type = "button" class="btn btn-primary ml-3 sg op" value = "/" onclick = "calculator.answer.value += '/' ">
+            <input type = "button" class="btn btn-primary ml-3 sg op" value = "=" onclick = "calculator.answer.value = eval(calculator.answer.value) ">
+   
+  
+</form>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
+
+ 
